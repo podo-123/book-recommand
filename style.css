@@ -1,0 +1,32 @@
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content:  center;
+    color: blue;
+    font-size: 40px;
+    border-bottom: 1px solid grey;
+}
+
+section {
+    height: 300px;
+}
+
+.book {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec1>.book {
+    color: brown;
+}
+
+.sec2>.book {
+    color: blueviolet;
+}
+
+.sec3>.book {
+    color: green;
+}
